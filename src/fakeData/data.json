@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 1,
+        "rideName" : "bike",
+        "image" : "https://cdn.dribbble.com/users/37520/screenshots/5541709/motorcycle-anim.gif",
+        "rent" : 45,
+        "user": 20
+    },
+    {
+        "id" : 2,
+        "rideName" : "car",
+        "image" : "https://cdn.dribbble.com/users/2755647/screenshots/6327196/image-6.gif",
+        "rent" : 67,
+        "user": 4
+    },
+    {
+        "id" : 3,
+        "rideName" : "bus",
+        "image" : "https://i.pinimg.com/originals/ad/86/28/ad862857f01512fa44bf4730f5fdc276.gif",
+        "rent" : 33,
+        "user": 78
+    },
+    {
+        "id" : 4,
+        "rideName" : "train",
+        "image" : "https://cdn.dribbble.com/users/330915/screenshots/2066401/loco_dribbble.gif",
+        "rent" : 29,
+        "user": 80
+    }
+]
