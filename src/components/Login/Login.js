@@ -4,12 +4,12 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from './firebase.config';
 import { Container } from 'react-bootstrap';
-import Header from '../components/Header/Header';
+import Header from '../Header/Header';
 import { useForm } from 'react-hook-form';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons';
-import { UserContext } from './../App';
+import { UserContext } from '../../App';
 import { useHistory, useLocation } from 'react-router';
 
 
