@@ -9,7 +9,7 @@ import Home from './components/Home/Home';
 import DestinationSearch from './components/Destination/DestinationSearch';
 import SearchResult from './components/SearchResult/SearchResult';
 import { createContext, useState } from 'react';
-import Login from './Login/Login';
+import Login from './components/Login/Login';
 import PrivateRouteDestination from './components/PrivateRouteDestination/PrivateRouteDestination';
 import PrivateRouteResult from './components/PrivateRouteResult/PrivateRouteResult';
 
