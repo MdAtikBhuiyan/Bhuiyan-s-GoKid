@@ -7,6 +7,7 @@ import './SearchResult.css';
 import { UserContext } from './../../App';
 import fakeData from '../../fakeData/data.json';
 import mapImage from '../../image/Map.png';
+import Map from '../Map/Map';
 
 const SearchResult = () => {
 
@@ -28,7 +29,7 @@ const SearchResult = () => {
 
                 <Row>
                     <Col md={5}>
-                        <div className="result-area form-area">
+                        <div className="result-area form-area mb-5">
                             <div className="placeNames">
                                 <h3>{from}</h3>
                                 <h3>{to}</h3>
@@ -63,8 +64,8 @@ const SearchResult = () => {
                     </Col>
 
                     <Col md={7}>
-                        <div className="map">
-                            <img src={mapImage} alt="" className='img-fluid' />
+                        <div className="map mb-4">
+                            <Map></Map>
                         </div>
                     </Col>
                 </Row>

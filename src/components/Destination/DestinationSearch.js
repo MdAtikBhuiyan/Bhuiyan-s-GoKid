@@ -6,6 +6,7 @@ import mapImage from '../../image/Map.png';
 import { useHistory } from 'react-router-dom';
 import { UserContext } from './../../App';
 import { useForm } from 'react-hook-form';
+import Map from '../Map/Map';
 
 
 const DestinationSearch = () => {
@@ -34,7 +35,7 @@ const DestinationSearch = () => {
 
                 <Row>
                     <Col md={5}>
-                        <div className="form-area">
+                        <div className="form-area mb-5">
 
                             <form onSubmit={handleSubmit(onSubmit)}>
                                 <label>Pick From</label>
@@ -88,8 +89,8 @@ const DestinationSearch = () => {
                     </Col>
 
                     <Col md={7}>
-                        <div className="map">
-                            <img src={mapImage} alt="" className='img-fluid' />
+                        <div className="map mb-4">
+                            <Map></Map>
                         </div>
                     </Col>
                 </Row>

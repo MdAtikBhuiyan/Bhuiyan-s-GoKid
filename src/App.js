@@ -13,7 +13,6 @@ import Login from './Login/Login';
 import PrivateRouteDestination from './components/PrivateRouteDestination/PrivateRouteDestination';
 import PrivateRouteResult from './components/PrivateRouteResult/PrivateRouteResult';
 
-
 export const UserContext = createContext();
 
 function App() {
@@ -42,9 +41,6 @@ function App() {
             <Home></Home>
           </Route>
 
-          {/* <PrivateRoute path='/destination/:rideName/:rideId'>
-            <DestinationSearch></DestinationSearch>
-          </PrivateRoute> */}
           <PrivateRouteDestination path='/destination/:rideName/:rideId'>
             <DestinationSearch></DestinationSearch>
           </PrivateRouteDestination>
